@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="newApp">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+    <script src="script.js"></script>
+    <title>Exercice 6</title>
+  </head>
+  <body ng-controller="showHide">
+    <button type="button" ng-click="showText()">Paragraphe 1</button>
+    <button type="button" ng-click="hideText()">Paragraphe 2</button>
+    <div ng-hide="parag1">{{paragraphe1}}</div>
+    <div ng-hide="parag2">{{paragraphe2}}</div>
+  </body>
+</html>
